@@ -1,0 +1,94 @@
+/* INDEX*/
+body h1 {
+  color: red;
+  font-family: Impact, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: overline underline;
+  text-align: center; }
+
+nav a:hover {
+  background-color: orange;
+  color: red;
+  transform: scale(1.25); }
+
+/* QUIENES SOMOS*/
+.TextoHistoria {
+  background: #ff5754;
+  background-image: linear-gradient(to right, red, yellow, white);
+  width: 1000px;
+  height: 280px;
+  border-top: solid 2px black;
+  border-right: solid 2px black;
+  border-bottom: solid 2px black;
+  border-left: solid 2px black;
+  padding: 5px;
+  display: block; }
+  .TextoHistoria .TextoHistoria__Cuadro {
+    color: #333333;
+    font-family: 'Lucida Grande', verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    line-height: 1.6; }
+
+/*NUESTRAS MARCAS*/
+table {
+  background-color: white;
+  margin-left: 40.5%; }
+  table .imgmarc {
+    transition-duration: 1; }
+  table .imgmarc:hover {
+    transform: scale(2); }
+  table .Spanmarc {
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-align: center; }
+
+.testoMarcas {
+  text-align: center; }
+
+/* DATOS UTILES */
+.ListaUtil {
+  margin-left: 1.5%;
+  list-style-image: url("http://www.imagenesanimadas.net/Hogar/Inodoros/Inodoro-11.gif");
+  font-family: 'Lucida Grande', verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  display: flex;
+  flex-direction: column; }
+
+/*UBICACION Y CONTACTO*/
+.input1 {
+  transition-duration: 3s; }
+
+.input1:focus {
+  width: 200px;
+  font-size: 24px; }
+
+@media (min-width: 200px) and (max-width: 1000px) {
+  nav {
+    width: auto; }
+  nav ul li {
+    font-size: 20px;
+    letter-spacing: 1px; } }
+
+/*FOOTER*/
+footer {
+  background-color: grey;
+  border: solid;
+  font-family: 'Lucida Grande', verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px; }
+  footer .imgcontact1 {
+    transition-duration: 1s; }
+  footer .imgcontact1:hover {
+    transform: rotate(10deg); }
+  footer .imgcontact2 {
+    transition-duration: 1s; }
+  footer .imgcontact2:hover {
+    transform: skewY(20deg); }
+  footer .imgcontact3 {
+    transition-duration: 1s; }
+  footer .imgcontact3:hover {
+    transform: scale(2, 1); }
